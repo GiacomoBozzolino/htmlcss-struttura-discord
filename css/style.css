@@ -6,8 +6,8 @@
 
 /* CLASSI HEADER */
 header {
-   height: 100px;
-   background-color: deepskyblue;
+   height: 75px;
+   background-color: rgba(173,216,230,255);
 
 }
 .row{
@@ -26,31 +26,35 @@ header {
 .left-column, .right-column{
     width: 25%;
     background-color: goldenrod;
-    height: 30%;
-    border: black 1px dashed; 
-    padding:5px 0;
+    height: 40%;
+    border: black 2px dashed; 
+    padding:5px;
 }
 
 .center-column{
     width: 50%;
     background-color: goldenrod;
-    height: 30%;
-    border: black 1px dashed; 
+    height: 40%;
+    border: black 2px dashed; 
     padding:5px 0;
     text-align: center;
+}
+
+.login{
+    text-align: right;
 }
 /* FINE CLASSI HEADER */
 /* INIZIO CLASSI STILE COLONNE MAIN */
 .column-25{
     width: calc(100%/4);
-    background-color: rgb(128, 168, 178);
+    background-color: rgba(32,178,170,255);
     height:100%;
     border: white 2px dashed; 
 }
 
 .column-30{
     width: 30%;
-    background-color: rgb(216, 126, 141);
+    background-color: rgba(240,128,128,255);
     height:100%;
     border: black 2px dashed; 
 }
@@ -75,7 +79,7 @@ header {
 }
 .column-80{
     width: 80%;
-    background-color:palevioletred;
+    background-color:rgba(238,130,238,255);
     height:90%;
     border: black 2px dashed; 
 }
@@ -94,7 +98,7 @@ header {
 
 .blue{
     margin-top: 0;
-    background-color: darkblue;
+    background-color:rgba(0,0,139,255);
 }
 
 .grey{
