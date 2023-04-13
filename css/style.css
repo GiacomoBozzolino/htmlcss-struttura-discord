@@ -40,40 +40,44 @@ header {
     text-align: center;
 }
 /* FINE CLASSI HEADER */
-/* INIZIO CLASSI STILE COLONNE */
-
-.column-70{
-    width: 70%;
-    background-color:palevioletred;
-    height:70%;
-    border: black 2px dashed; 
-}
-
-
-.column-60{
-    width: 60%;
-    background-color: rgb(32, 35, 218);
+/* INIZIO CLASSI STILE COLONNE MAIN */
+.column-25{
+    width: calc(100%/4);
+    background-color: rgb(128, 168, 178);
     height:100%;
-    border: black 2px dashed; 
+    border: white 2px dashed; 
 }
-.column-40{
-    width: 40%;
-    background-color: pink;
-    height:100%;
-    border: black 2px dashed; 
 
-}
 .column-30{
     width: 30%;
     background-color: rgb(216, 126, 141);
     height:100%;
     border: black 2px dashed; 
 }
-.column-15{
-    width: calc(70%/4);
-    background-color: rgb(128, 168, 178);
+
+.column-40{
+    width: 40%;
+    background-color: pink;
     height:100%;
-    border: white 2px dashed; 
+    border: black 2px dashed; 
+}
+.column-60{
+    width: 60%;
+    background-color: rgb(32, 35, 218);
+    height:100%;
+    border: black 2px dashed; 
+}
+
+.column-70{
+    width: 70%;
+    height:100%;
+    border: black 2px dashed; 
+}
+.column-80{
+    width: 80%;
+    background-color:palevioletred;
+    height:70%;
+    border: black 2px dashed; 
 }
 .column-100{
     width: 100%;
@@ -81,7 +85,9 @@ header {
     height:100%;
     border: black 2px dashed; 
 }
-/* FINE CLASSI STILI COLONNE */
+/* FINE CLASSI STILI COLONNE MAIN */
+
+
 .white-jumbotron{
     height: 500px;
     margin: 20px 0;
@@ -114,6 +120,10 @@ header {
     padding: 20px 0;
 }
 
+hr{
+    color: white;
+}
+/* INIZIO CLASSI FOOTER */
 footer{
     background-color: black;
     height: 100px;
@@ -129,9 +139,12 @@ footer{
 }
 
 .left-button, .right-button{
-   width: 50px;
+   /* width: 50px; */
     background-color: goldenrod;
     height: 35%;
     border: black 1px dashed; 
+    
   
 }
+
+/* FINE CLASSI FOOTER */
