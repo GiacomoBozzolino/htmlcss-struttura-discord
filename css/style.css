@@ -76,7 +76,7 @@ header {
 .column-80{
     width: 80%;
     background-color:palevioletred;
-    height:70%;
+    height:90%;
     border: black 2px dashed; 
 }
 .column-100{
@@ -86,43 +86,38 @@ header {
     border: black 2px dashed; 
 }
 /* FINE CLASSI STILI COLONNE MAIN */
-
-
-.white-jumbotron{
+/* UTILITIES */
+.jumbotron{
     height: 500px;
-    margin: 20px 0;
+    padding: 40px 0;
 }
 
-.blue-jumbotron{
-    height: 500px;
-    margin: 20px 0;
+.blue{
+    margin-top: 0;
     background-color: darkblue;
 }
 
-.grey-jumbotron{
-    height: 500px;
-    margin: 20px 0;
+.grey{
     background-color: lightgrey;
-    padding: 20px 0;
 }
 
-.lightgrey-jumbotron{
+.lightgrey.jumbotron{
     height: 800px;
-    margin-top: 20px ;
     background-color: lightgrey;
-    padding: 20px 0;
+    
 }
 
-.black-jumbotron{
-    height: 500px;
-    
+.black.jumbotron{
     background-color: black;
-    padding: 20px 0;
+    padding: 10px 0 20px 0;
+    margin:0
 }
 
 hr{
     color: white;
 }
+
+/* FINE UTILITIES */
 /* INIZIO CLASSI FOOTER */
 footer{
     background-color: black;
@@ -134,17 +129,16 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   background-color: rgba(7, 226, 145, 0.628);
+    background-color: rgba(7, 226, 145, 0.628);
     height:100%
 }
 
 .left-button, .right-button{
-   /* width: 50px; */
+    width: 70px;
     background-color: goldenrod;
     height: 35%;
     border: black 1px dashed; 
-    
-  
+    text-align: center;
 }
 
 /* FINE CLASSI FOOTER */
