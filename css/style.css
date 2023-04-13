@@ -10,18 +10,20 @@ header {
    background-color: deepskyblue;
 
 }
+.row{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100%
+}
 
 .container{
     margin: 0 auto;
     width: 1170px;
-    display: flex;
-    height:100px;
-    background-color: deepskyblue;
-    justify-content:center;
-    align-items:center;
-
+    height:100%;
+    
+   
 }
-
 
 .left-column, .right-column{
     width: 25%;
@@ -36,9 +38,46 @@ header {
     height: 50%;
     border: black 1px dashed; 
 }
+/* FINE CLASSI HEADER */
+
+.column-70{
+    width: 70%;
+    background-color:palevioletred;
+    height:70%;
+    border: black 2px dashed; 
+}
+
+
+.column-60{
+    width: 60%;
+    background-color: rgb(32, 35, 218);
+    height:100%;
+    border: black 2px dashed; 
+}
+.column-40{
+    width: 40%;
+    background-color: pink;
+    height:100%;
+    border: black 2px dashed; 
+
+}
+
+.white-jumbotron{
+    height: 500px;
+    margin: 20px 0;
+}
+
+.blue-jumbotron{
+    height: 500px;
+    margin: 20px 0;
+    background-color: darkblue;
+}
 
 
 
-
-
-
+.grey-jumbotron{
+    height: 500px;
+    margin: 20px 0;
+    background-color: lightgrey;
+    padding: 20px 0;
+}
