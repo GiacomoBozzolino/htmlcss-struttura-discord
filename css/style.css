@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* CLASSI HEADER */
+header {
+   height: 100px;
+   background-color: deepskyblue;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    height:100px;
+    background-color: deepskyblue;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.left-column, .right-column{
+    width: 25%;
+    background-color: goldenrod;
+    height: 50%;
+    border: black 1px dashed; 
+}
+
+.center-column{
+    width: 50%;
+    background-color: goldenrod;
+    height: 50%;
+    border: black 1px dashed; 
+}
+
+
+
+
+
+
